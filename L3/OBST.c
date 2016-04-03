@@ -18,7 +18,6 @@ void print_values(int data[][N]);
 
 int main()
 {
-
     wcr();
 
     printf("Cost table:\n");
