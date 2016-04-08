@@ -5,7 +5,8 @@ ____
 1. [Merge Sort](L2/merge_sort.c)  
 2. [Quick Sort](L2/quick_sort.c)  
 3. [Knapsack (DP)](L2/knapsack.c)  
-4. [Activity Selection Sort](L2/activity_selection_sort.c)  
+4. [Longest Common Subsequence (DP)](L2/lcs.cpp)  
+5. [Activity Selection Sort](L2/activity_selection_sort.c)  
 
 
 **L3**  
