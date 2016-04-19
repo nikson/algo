@@ -20,7 +20,7 @@ int comp(const void *a, const void *b)
 	return( data[*y].value - data[*x].value);
 }
 
-void Haffman(int n)
+void Huffman(int n)
 {
 	int i, total, left, right;
 
@@ -28,13 +28,13 @@ void Haffman(int n)
 
 	for( i = 0; i < n-1; i++)
 	{
-	    // reverse sort
+		// reverse sort
 		qsort(pos, n - i, sizeof(int), comp);
 
 		left =	pos[n-i-1];
 		right = pos[n-i-2];
 
-        // keep binary tree at the end of array, and use the position
+		// keep binary tree at the end of array, and use the position
 		total++;
 		data[total].parent = 0;
 		data[total].value = data[left].value + data[right].value;
@@ -44,7 +44,7 @@ void Haffman(int n)
 		data[right].bit = 1;
 		data[right].parent = total;
 
-        // remove last two data and replace with newly created node
+		// remove last two data and replace with newly created node
 		pos[n-i-2] = total;
 	}
 
@@ -76,7 +76,7 @@ int main()
 			pos[i] = i;
 		}
 
-		Haffman(n);
+		Huffman(n);
 
 		for( i = 0; i < n; i++)
 		{
