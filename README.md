@@ -10,7 +10,8 @@ ____
 6. [Haffman Coding](L2/huffman_coding.cpp)  
 7. [nQueen (Backtracking)](L2/nqueen.cpp)  
 8. [Graph Traverse (BFS, DFS)](L2/bfs_dfs.cpp)  
-9. [Minimum Spanning Tree (Single Source Shortest Path)](mst_dijkastra.cpp)  
+9. [Minimum Spanning Tree (Prims Algorithm)](L2/mst_prims.cpp.cpp)  
+
 
 **L3**  
 1. [Optimal Binary Search Tree](L3/obst.c)  
