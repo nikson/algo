@@ -20,7 +20,7 @@ void mst_prims();
 
 int main()
 {
-	// freopen("in.txt","r",stdin);
+    // freopen("in.txt","r",stdin);
 
 	read_inputs();
 
@@ -100,7 +100,7 @@ void mst_prims()
 		min = INF;
 		for( t = 1; t <= vertex; t++)
 		{
-			if( (temp[t] != 0 ) && ( cost[t][temp[t]] < min))  // value of (2,4) = 1
+			if( (temp[t] != 0 ) && ( cost[t][temp[t]] < min))
 			{
 					min = cost[t][temp[t]];
 					j = t;
