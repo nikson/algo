@@ -37,9 +37,9 @@ void sum_of_subset(long s, long k, long r)
 		return;
 	}
 	else if( s + w[k] + w[k+1] <= m)
-    {
-        sum_of_subset(s+w[k], k+1, r-w[k]);
-    }
+	{
+		sum_of_subset(s+w[k], k+1, r-w[k]);
+	}
 
 	if(( s + r - w[k] >= m ) && ( s + w[k+1] <= m))
 	{
