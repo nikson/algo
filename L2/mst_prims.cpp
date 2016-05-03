@@ -20,7 +20,7 @@ void mst_prims();
 
 int main()
 {
-    // freopen("in.txt","r",stdin);
+	// freopen("in.txt","r",stdin);
 
 	read_inputs();
 
@@ -37,12 +37,12 @@ void read_inputs()
 	printf("How many vertex & edge : ");
 	scanf(" %d %d", &vertex, &edge);
 
-    // Init cost table
+	// Init cost table
 	for( i = 0; i <= vertex; i++ )
 		for( j = 0; j <= vertex; j++)
 			cost[i][j] = INF;
 
-    // Take all edge information
+	// Take all edge information
 	for( i = 0; i < edge ; i++ )
 	{
 		printf("\nEnter e1 e2 w: ");
@@ -82,7 +82,7 @@ void mst_prims()
 	l = graph[min].dis;
 	mincost = cost[k][l];
 
-    printf("\nMinimum Spanning Tree (Prims algorithm)");
+	printf("\nMinimum Spanning Tree (Prims algorithm)");
 	printf("\ne1 = %d   e2 = %d", graph[min].src, graph[min].dis);
 
 	for( i = 1; i <= vertex; i++ )
