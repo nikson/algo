@@ -17,7 +17,7 @@ ____
 1. [Coin Change](L3/coin_change.cpp)  
 2. [Edit Distance](L3/edit_distance.cpp)  
 3. [Sum of Subset](L3/sumofsub.cpp)  
-4. [Optimal Binary Search Tree](L3/obst.c)  
+4. [Optimal Binary Search Tree](L3/obst.cpp)  
 
 
 
