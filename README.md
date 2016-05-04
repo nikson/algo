@@ -11,6 +11,7 @@ ____
 7. [nQueen (Backtracking)](L2/nqueen.cpp)  
 8. [Graph Traverse (BFS, DFS)](L2/bfs_dfs.cpp)  
 9. [Minimum Spanning Tree (Prims Algorithm)](L2/mst_prims.cpp)  
+10.[Minimum Spanning Tree (Kruskal Algorithm)](L2/mst_kruskal.cpp)  
 
 
 **L3**  
