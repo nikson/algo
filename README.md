@@ -21,7 +21,7 @@ ____
 4. [Optimal Binary Search Tree](L3/obst.cpp)  
 
 **N2**  
-1. [Consolidation Benefit](N3/consolidation_benefit.cpp)  
+1. [Consolidation Benefit](N2/consolidation_benefit.cpp)  
 
 
 
