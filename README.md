@@ -20,8 +20,8 @@ ____
 3. [Sum of Subset](L3/sumofsub.cpp)  
 4. [Optimal Binary Search Tree](L3/obst.cpp)  
 
-**N2**  
-1. [Consolidation Benefit](N2/consolidation_benefit.cpp)  
+**N3**  
+1. [Consolidation Benefit](N3/consolidation_benefit.cpp)  
 
 
 
